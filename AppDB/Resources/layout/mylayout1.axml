@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Create Database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:id="@+id/mydbbutton1" />
+    <Button
+        android:text="Create Table"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mytablebutton2" />
+    <TextView
+        android:text="Enter Task"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myentertaskeditText1" />
+    <Button
+        android:text="Insert Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myinsertbutton3" />
+    <Button
+        android:text="Update Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myupdatebutton4" />
+    <Button
+        android:text="Delete Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mydeletebutton5" />
+    <Button
+        android:text="Show All Records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myshowalldatabutton6" />
+    <Button
+        android:text="Get By Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mygetbyidbutton7" />
+</LinearLayout>
